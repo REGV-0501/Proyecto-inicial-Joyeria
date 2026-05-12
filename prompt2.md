@@ -1,371 +1,86 @@
-Actúa como un arquitecto de software senior y experto en desarrollo móvil multiplataforma. Quiero crear una aplicación de joyería llamada **“Joyeria JB”** utilizando **Flutter + Dart + Firebase**, desarrollada en **VS Code o Android Studio**.
-
-Tu tarea NO es generar código todavía.
-Primero debes crear un **plan completo de implementación en formato Markdown**, detallado y profesional, explicando paso a paso cómo desarrollar la aplicación desde cero.
-
-La respuesta debe centrarse en:
-
-* Arquitectura del proyecto
-* Organización de carpetas
-* UI/UX
-* Flujo de navegación
-* Firebase
-* Firestore
-* Authentication
-* State Management con Provider
-* Dependencias necesarias
-* Diseño responsive
-* Buenas prácticas
-* Seguridad
-* Escalabilidad
-* Flujo de desarrollo
-
-NO generes código fuente.
-NO generes widgets completos.
-SOLO quiero planificación, estructura y procedimiento técnico detallado.
+Perfecto. A continuación tienes **el mismo encargo**, con **las mismas exigencias técnicas y objetivos**, pero redactado de forma **menos rígida y menos estructurada**, para que puedas usarlo como prompt alternativo cuando quieras obtener un plan igualmente profesional pero con un estilo más natural.
 
 ---
 
-# Objetivo de la Aplicación
+Quiero que actúes como un **arquitecto de software senior**, experto en **Flutter, Dart y Firebase**, y me ayudes a planificar desde cero el desarrollo de una aplicación móvil de joyería llamada **“Joyeria JB”**.
 
-La aplicación será una tienda de joyería moderna con:
+La aplicación se desarrollará en **Flutter**, utilizando **Dart**, y estará conectada a **Firebase** (Authentication, Firestore y Storage). Se trabajará desde **VS Code o Android Studio**.
+
+⚠️ Muy importante:
+No quiero que generes código todavía.
+No quiero widgets.
+No quiero archivos `.dart`.
+
+Solo necesito un **plan de implementación completo, técnico y profesional**, en formato Markdown, que explique paso a paso **cómo debe construirse la aplicación desde cero**.
+
+---
+
+La app será una tienda moderna y elegante de joyería que tendrá:
 
 * Catálogo de productos
 * Categorías
 * Carrito de compras
-* Inicio de sesión
-* Registro de usuarios
+* Inicio de sesión y registro
+* Perfil de usuario
 * Gestión de inventario
 * Pagos
-* Perfil de usuario
-* Panel administrativo futuro
-* Experiencia visual elegante y minimalista
+* Experiencia visual minimalista y premium
+* Posibilidad de tener un panel administrativo más adelante
 
 ---
 
-# Tecnologías Obligatorias
+Debes cubrir con mucho detalle temas como:
 
-Debes incluir:
-
-* Flutter
-* Dart
-* Firebase
-* Firebase Authentication
-* Cloud Firestore
-* Firebase Storage
-* Provider (state management)
-* Responsive UI
-* Material Design 3
-* Arquitectura escalable
-
----
-
-# Dependencias Requeridas
-
-Debes explicar:
-
-* Qué dependencias irán en `pubspec.yaml`
-* Para qué sirve cada una
-* Cuándo utilizarla
-* Qué problemas resuelve
-
-Incluye dependencias como:
-
-* provider
-* firebase_core
-* firebase_auth
-* cloud_firestore
-* firebase_storage
-* image_picker
-* cached_network_image
-* flutter_svg
-* go_router o auto_route
-* intl
-* uuid
-* shimmer
-* flutter_staggered_grid_view
-* shared_preferences
-
----
-
-# Plan de Implementación
-
-Genera un roadmap profesional dividido en fases:
-
-## Fase 1 — Configuración Inicial
-
-* Instalación de Flutter
-* Configuración de Firebase
-* Configuración Android/iOS
-* Configuración VS Code
-* Estructura inicial del proyecto
-
-## Fase 2 — Arquitectura
-
+* Arquitectura del proyecto
+* Organización de carpetas
 * Clean Architecture
-* Separación por capas
-* Services
-* Providers
-* Models
-* Repositories
-* Screens
-* Widgets reutilizables
-
-## Fase 3 — Diseño UI/UX
-
-Explica:
-
-* Paleta de colores elegante
-* Tipografía
-* Espaciados
-* Diseño minimalista
-* Experiencia premium
-* Diseño adaptable
-
----
-
-# Diseño de Pantallas
-
-Debes describir detalladamente cada pantalla:
-
-## 1. Pantalla de Inicio de Sesión
-
-Debe incluir:
-
-* Logo de la joyería centrado
-* Campos:
-
-  * Usuario o correo
-  * Contraseña
-* Botón “Ingresar”
-* Botón “Crear cuenta”
-* Opción “Continuar como invitado”
-* Recuperar contraseña
-* Validaciones UX
-* Estados de carga
-* Manejo de errores
-* Diseño elegante y moderno
-
----
-
-## 2. Barra de Navegación Global
-
-Todas las pantallas (excepto login) deben tener una barra superior personalizada:
-
-### Elementos:
-
-* Izquierda:
-
-  * Ícono de bolsa/carrito de compras
-* Centro:
-
-  * Logo de la joyería
-* Derecha:
-
-  * Menú hamburguesa
-
-### El menú hamburguesa desplegable debe contener:
-
-* Inicio
-* Categorías
-* Collares
-* Anillos
-* Pulseras
-* Aretes
-* Promociones
-* Mi cuenta
-* Mis pedidos
-* Cerrar sesión
-
-Explica:
-
-* UX del menú
-* Navegación
-* Animaciones
-* Comportamiento responsive
-
----
-
-## 3. Pantalla Principal (Home)
-
-Debe incluir:
-
-* Banner principal
-* Productos destacados
-* Categorías
-* Carrusel de promociones
-* Productos nuevos
-* Sección “Nosotros”
-* Botón agregar al carrito
-* Cards elegantes de productos
-
----
-
-## 4. Pantalla de Categorías
-
-Debe incluir:
-
-* Grid de categorías
-* Filtros
-* Búsqueda
-* Ordenamiento
-
----
-
-## 5. Pantalla Detalle de Producto
-
-Debe incluir:
-
-* Galería de imágenes
-* Nombre
-* Precio
-* Descripción
-* Material
-* Stock
-* Botón agregar al carrito
-* Productos relacionados
-
----
-
-## 6. Carrito de Compras
-
-Debe incluir:
-
-* Lista de productos
-* Cantidades
-* Subtotal
-* Total
-* Eliminar producto
-* Checkout
-
----
-
-## 7. Perfil de Usuario
-
-Debe incluir:
-
-* Información personal
-* Historial de pedidos
-* Dirección
-* Configuración
-
----
-
-# Firebase y Firestore
-
-Explica detalladamente:
-
-* Cómo estructurar Firestore
-* Colecciones
-* Subcolecciones
-* Seguridad
-* Reglas de Firestore
-* Manejo de usuarios
-* Manejo de inventario
-* Manejo de pedidos
-
----
-
-# Base de Datos
-
-Basado en el siguiente modelo relacional, explica cómo migrarlo o adaptarlo a Firestore:
-
-Tablas:
-
-* clientes
-* empleados
-* ventas
-* detalle_venta
-* pagos
-* productos
-* categorías
-* proveedores
-* inventario
-* promociones
-
-Debes explicar:
-
-* Relaciones
-* Estructura recomendada en Firestore
-* Optimización de consultas
-* Escalabilidad
-
----
-
-# Flujo de Navegación
-
-Explica:
-
-* Flujo de autenticación
-* Navegación entre pantallas
-* Manejo de sesiones
-* Protección de rutas
-* Persistencia de login
-
----
-
-# Provider State Management
-
-Explica:
-
-* Cómo organizar Providers
-* Providers por módulo
-* Manejo del carrito
-* Manejo del usuario
-* Manejo de productos
+* Cómo separar modelos, servicios, repositorios, providers, pantallas y widgets reutilizables
+* Diseño UI/UX profesional, minimalista y elegante
+* Flujo completo de navegación entre pantallas
+* Uso correcto de Firebase, Authentication, Firestore y Storage
+* Cómo estructurar Firestore para productos, usuarios, pedidos, inventario, promociones, etc.
+* Cómo adaptar un modelo relacional clásico (clientes, ventas, productos, categorías, inventario…) a la estructura NoSQL de Firestore
+* Manejo de estado con Provider
+* Diseño responsive con Material Design 3
 * Buenas prácticas
+* Seguridad en Firebase
+* Escalabilidad futura de la app
+* Flujo recomendado de desarrollo por fases
 
 ---
 
-# UX/UI Profesional
+También necesito que describas detalladamente cada pantalla de la app, por ejemplo:
 
-Incluye recomendaciones sobre:
+* Pantalla de inicio de sesión (logo, campos, botones, validaciones, estados de carga y errores)
+* Barra de navegación superior global con carrito, logo centrado y menú hamburguesa
+* Menú hamburguesa con secciones como Inicio, Categorías, Collares, Anillos, Pulseras, Aretes, Promociones, Mi cuenta, Mis pedidos, Cerrar sesión
+* Pantalla principal con banners, productos destacados, categorías, promociones y sección “Nosotros”
+* Pantalla de categorías con grid, filtros y búsqueda
+* Pantalla de detalle de producto con galería, precio, descripción, material, stock y relacionados
+* Carrito de compras con totales y checkout
+* Perfil del usuario con datos e historial
 
-* Animaciones suaves
-* Skeleton loading
-* Shimmer effects
-* Empty states
-* Estados de error
-* Responsive design
-* Accesibilidad
-* Optimización visual
-
----
-
-# Seguridad
-
-Explica:
-
-* Seguridad Firebase
-* Validaciones
-* Protección de datos
-* Manejo seguro de sesiones
-* Prevención de accesos no autorizados
+Explica la experiencia de usuario, animaciones, estados vacíos, shimmer, skeleton loading, manejo de errores y adaptación a distintos tamaños de pantalla.
 
 ---
 
-# Escalabilidad
+Necesito también que expliques qué dependencias irán en `pubspec.yaml`, para qué sirve cada una, cuándo se usa y qué problema resuelve. Incluye dependencias como:
 
-Explica:
-
-* Cómo preparar la app para crecer
-* Panel administrativo futuro
-* API futura
-* Modularización
-* Separación frontend/backend
+`provider`, `firebase_core`, `firebase_auth`, `cloud_firestore`, `firebase_storage`, `image_picker`, `cached_network_image`, `flutter_svg`, `go_router o auto_route`, `intl`, `uuid`, `shimmer`, `flutter_staggered_grid_view`, `shared_preferences`.
 
 ---
 
-# Resultado Esperado
+Finalmente, quiero que organices el plan como un roadmap por fases:
 
-La respuesta debe entregarse:
+* Configuración inicial del entorno
+* Arquitectura del proyecto
+* Diseño UI/UX
+* Integración con Firebase
+* Manejo del estado
+* Seguridad
+* Escalabilidad
+* Flujo de desarrollo recomendado
 
-* En formato Markdown
-* Bien estructurada
-* Profesional
-* Paso a paso
-* Fácil de seguir
-* Sin generar código
-* Sin omitir detalles técnicos importantes
+---
 
-El objetivo es tener una guía completa de planificación y arquitectura antes de comenzar el desarrollo real de la aplicación.
+El resultado debe ser un documento en Markdown, muy claro, profesional, detallado y fácil de seguir, que sirva como guía completa antes de empezar a programar.
