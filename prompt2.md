@@ -1,12 +1,8 @@
-Perfecto. A continuación tienes **el mismo encargo**, con **las mismas exigencias técnicas y objetivos**, pero redactado de forma **menos rígida y menos estructurada**, para que puedas usarlo como prompt alternativo cuando quieras obtener un plan igualmente profesional pero con un estilo más natural.
-
----
-
 Quiero que actúes como un **arquitecto de software senior**, experto en **Flutter, Dart y Firebase**, y me ayudes a planificar desde cero el desarrollo de una aplicación móvil de joyería llamada **“Joyeria JB”**.
 
 La aplicación se desarrollará en **Flutter**, utilizando **Dart**, y estará conectada a **Firebase** (Authentication, Firestore y Storage). Se trabajará desde **VS Code o Android Studio**.
 
-⚠️ Muy importante:
+Muy importante:
 No quiero que generes código todavía.
 No quiero widgets.
 No quiero archivos `.dart`.
@@ -64,11 +60,7 @@ Explica la experiencia de usuario, animaciones, estados vacíos, shimmer, skelet
 
 ---
 
-Necesito también que expliques qué dependencias irán en `pubspec.yaml`, para qué sirve cada una, cuándo se usa y qué problema resuelve. Incluye dependencias como:
-
-`provider`, `firebase_core`, `firebase_auth`, `cloud_firestore`, `firebase_storage`, `image_picker`, `cached_network_image`, `flutter_svg`, `go_router o auto_route`, `intl`, `uuid`, `shimmer`, `flutter_staggered_grid_view`, `shared_preferences`.
-
----
+Necesito también que expliques qué dependencias irán en `pubspec.yaml`
 
 Finalmente, quiero que organices el plan como un roadmap por fases:
 
