@@ -8,3 +8,5 @@
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/3b80832e-b1e4-45a5-bfd3-22bd352cbf54" />
 ## Unidad 5
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/4118ac2a-61eb-43a9-8fc8-a001cc583d2b" />
+## Unidad 6
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/593b672d-8243-4904-a1ce-9c3ee825074e" />
